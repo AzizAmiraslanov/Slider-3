@@ -1,0 +1,35 @@
+#slider {
+    position: relative;
+    border: 1px solid red;
+    overflow: hidden;
+    .slider-middle {
+    transition: .3s ease-in-out;
+    }
+
+    .slider-item {
+       flex: 1;
+
+    img {
+
+        height: 600px;
+        object-fit: cover;
+        width: 100%;
+      
+    }
+    }
+}
+    .next,
+    .prev {
+        color: white;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        z-index: 5;
+    }
+    .next {
+        right: 25px;
+    }
+    .prev {
+        left: 25px;
+    }
+
